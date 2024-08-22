@@ -1,0 +1,197 @@
+.navbar {
+    padding: 0 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background-color: #1a202c;
+    transition: background-color 0.3s ease;
+  }
+  /* Navbar.module.css */
+.navbarPlaceholder {
+  height: 80px; 
+  width: 100%;
+}
+
+  
+  .navbarScrolled {
+    background-color: #1a202c; /* Example of bg-primary replacement */
+  }
+  
+
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 112rem;
+    margin: 0 auto;
+  }
+  
+  .logoLink {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .logoLink :hover{
+    color: white;
+  }
+  
+  .logoImage {
+    width: 2.4rem;
+    height: 2.8rem;
+    object-fit: cover;
+    border-radius: 50%; 
+  }
+  
+  
+  .logoText {
+    color: #909db1; 
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  
+  /* Navbar link items */
+  .navLinkItem a {
+    text-decoration: none; /* Remove underline from navbar items */
+    color: #718096; /* Set the color of the navbar items */
+  }
+  
+  .navLinkItem a:hover {
+    color: white; /* Change color on hover */
+  }
+  
+  /* Active navbar link item */
+  .navLinkItemActive a {
+    color: white;
+  }
+
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+@media (max-width: 640px) {
+  .navLinks {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+}
+
+/* Menu styles */
+.menuButton {
+  display: none; /* Hidden by default, shown on small screens */
+}
+
+.menu {
+  padding: 1.5rem;
+  background: linear-gradient(to right, #a19997  , black); 
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  margin: 0 1rem;
+  min-width: 140px;
+  z-index: 10;
+  border-radius: 1rem;
+  display: none;
+}
+
+.menuShow {
+  display: flex;
+}
+
+.menuLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.menuLinkItem {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+  cursor: pointer;
+  color: #718096;
+}
+
+.menuLinkItemActive {
+  color: white;
+}
+
+  
+  .navLinksShow {
+    display: flex;
+    gap: 2.5rem;
+  }
+  
+  .navLinkItem {
+    color: #718096; 
+    font-size: 18px;
+    font-weight: medium;
+    cursor: pointer;
+    
+  }
+  
+  .navLinkItemActive {
+    color: white;
+  }
+  
+  .navLinkItemHover:hover {
+    color: white;
+  }
+  
+  .menuButton {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+  }
+  
+
+/* Menu Button - Hidden by default (on larger screens) */
+.menuButton {
+  display: none;
+}
+
+/* Show the menu button on screens smaller than 640px */
+@media (max-width: 640px) {
+  .menuButton {
+    display: block;
+  }
+
+  .navLinks {
+    display: none;
+  }
+}
+  
+  .menuLinkItemActive {
+    color: white;
+  }
+  
+  .menuLinkItem a {
+    text-decoration: none; 
+    color: white; 
+  }
+  
+  .menuLinkItem a:hover {
+    color: white; 
+  }
+  
+  /* Active menu link item */
+  .menuLinkItemActive a {
+    color: white;
+  }

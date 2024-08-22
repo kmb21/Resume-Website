@@ -1,0 +1,39 @@
+.works-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    background-color: #03061a;
+    margin-top: -25px;
+  }
+  
+  .section-sub-text {
+    font-size: 18px;
+    color: #a3a3a3; /* Example color */
+  }
+  
+  .section-head-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .works-description {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .works-text {
+    color: #a3a3a3;
+    font-size: 17px;
+    max-width: 960px;
+    line-height: 1.8;
+  }
+  
+  .projects-grid {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+  }
+  

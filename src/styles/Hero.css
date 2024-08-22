@@ -1,0 +1,95 @@
+/* Container Section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full-screen height */
+    margin-top: -5%;
+    /* margin: 0 auto; */
+    background-image: url('../assets/herobg.png');
+    
+  }
+  
+  /* Container for the text and line */
+  .hero-container {
+    position: absolute;
+    inset: 0;
+    top: 120px;
+    max-width: 112rem; /* Equivalent to max-w-7xl in Tailwind */
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem; /* Equivalent to styles.paddingX */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.25rem; /* Gap between items */
+  }
+  
+  /* Vertical line and dot */
+  .line-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+  }
+  
+  .circle {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: #915EFF;
+  }
+  
+  .line {
+    width: 0.25rem;
+    height: 40rem;
+    background: linear-gradient(to bottom, violet, transparent); /* Gradient line */
+  }
+  
+  .line-sm {
+    height: 20rem; /* For smaller screens */
+  }
+  
+  /* Heading and Subheading */
+  .hero-heading {
+    font-size: 3rem; /* Adjust based on design */
+    font-weight: bold;
+    color: white;
+  }
+  
+  .hero-highlight {
+    color: #915EFF; /* Highlight color */
+  }
+  
+  .hero-subheading {
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.75); /* Slightly faded white */
+    font-size: 1.25rem;
+  }
+  
+  .down-arrow {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    animation: hoverAnimation 1.5s infinite;
+    z-index: 100; 
+  }
+  
+  @keyframes hoverAnimation {
+    0% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
+    }
+    100% {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  .computer-canvas{
+    padding-bottom: 4%;
+  }
+  
+  

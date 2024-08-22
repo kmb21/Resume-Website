@@ -1,0 +1,62 @@
+.feedback-card {
+    background-color: #2b2b2b; /* Equivalent to bg-black-200 */
+    padding: 40px;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .quote-symbol {
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+  }
+  
+  .testimonial-content {
+    margin-top: 10px;
+  }
+  
+  .testimonial-text {
+    color: white;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+  }
+  
+  .testimonial-author {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .author-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .author-name {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .blue-gradient {
+    background: linear-gradient(to right, #6b9dfa, #4e59a5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .author-designation {
+    margin-top: 4px;
+    color: #a3a3a3; /* Equivalent to text-secondary */
+    font-size: 12px;
+  }
+  
+  .author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  

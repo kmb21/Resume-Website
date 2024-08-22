@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,11 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.svg";
+import cpp from "./tech/cpp.png"
+import swift from "./tech/swift.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import duolingo from "./company/duolingo.jpeg";
+import swarthmore from "./company/swarthmore.jpg";
+import achaAnnex from "./company/achaAnnex.jpeg";
+import hermann from "./company/hermann.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -39,6 +46,7 @@ export {
   github,
   menu,
   close,
+  cpp,
   css,
   docker,
   figma,
@@ -47,6 +55,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  python,
   reactjs,
   redux,
   tailwind,
@@ -55,8 +64,13 @@ export {
   meta,
   shopify,
   starbucks,
+  swift,
   tesla,
   carrent,
   jobit,
   tripguide,
+  duolingo,
+  swarthmore,
+  achaAnnex,
+  hermann,
 };

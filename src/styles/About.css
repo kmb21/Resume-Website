@@ -1,0 +1,95 @@
+
+.about-container {
+    width: 100%;
+    margin: -25px auto;
+    padding: 0 4rem;
+    background-color: #03061a;
+    /* background-image: url('../assets/herobg.png'); */
+  }
+  
+  .section-sub-text {
+    font-size: 20px;
+    color: #9c9c9c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  
+  .section-head-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  /* Paragraph styling */
+  .about-paragraph {
+    margin-top: 16px;
+    color: #6b7280; /* text-secondary */
+    font-size: 17px;
+    max-width: 700px;
+    line-height: 1.75;
+  }
+  .hr-line {
+    width: 98%; /* Adjust the width as needed */
+    height: 8px; /* Thickness of the line */
+    background-color: #e9eaee;
+    border: none;
+    margin-bottom: 2rem; /* Space below the line */
+  }
+  
+.hr-position{
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  align-items: center;
+} 
+  /* Service Cards Container */
+  .services-container {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Service Card Styles */
+  .service-card {
+    width: 250px;
+    background: linear-gradient(45deg, #ff6ec7, #9dffb0); /* green-pink-gradient */
+    padding: 2px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-card-inner {
+    background-color: #1f2937; /* bg-tertiary */
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .service-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 16px;
+  }
+  
+  .service-card h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .service-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

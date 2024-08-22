@@ -1,0 +1,34 @@
+.feedbacks-container {
+    background-color: #03061a;
+    padding-left: 2rem;
+  }
+  
+  .feedbacks-header {
+    background-color: #03061a;
+    border-radius: 16px;
+
+    padding: 40px; /* Adjust based on styles.padding */
+    min-height: 300px;
+  }
+  
+  .section-subtext {
+    font-size: 18px;
+    color: #a3a3a3; /* Equivalent to text-secondary */
+  }
+  
+  .section-headtext {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .feedback-cards {
+    margin-top: -80px; /* Adjust based on -mt-20 */
+    padding-bottom: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  

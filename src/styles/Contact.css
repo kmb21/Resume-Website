@@ -1,0 +1,80 @@
+/* Full section background */
+.contact-section {
+    position: relative;
+    padding: 2rem 1rem;
+    overflow: hidden;
+    background-color: transparent; /* Background is set by the StarsCanvas */
+  }
+  
+  /* Earth container */
+  .earth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem; /* Space between the Earth and the form */
+  }
+  
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1f1f1f; /* bg-black-100 equivalent */
+    padding: 32px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .section-subtext {
+    font-size: 18px;
+    color: #a3a3a3; /* text-secondary equivalent */
+  }
+  
+  .section-headtext {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .contact-form {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .form-label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label-text {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .form-input {
+    background-color: #2b2b2b; /* bg-tertiary equivalent */
+    padding: 16px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+  }
+  
+  .submit-button {
+    background-color: #2b2b2b; /* bg-tertiary equivalent */
+    padding: 12px 32px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #373737; /* Slightly darker on hover */
+  }
+  

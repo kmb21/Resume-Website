@@ -1,0 +1,46 @@
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: #03061a;
+}
+
+.tech-item {
+  width: 112px; 
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-title{
+  display: flex;
+  justify-content: left;
+  font-size: 30px; 
+  padding-left: 4rem;
+  padding-bottom: 5px;
+  color: #9c9c9c;
+  background-color: #03061a;
+}
+
+.hr-line {
+  width: 90%; 
+  height: 8px; /* Thickness of the line */
+  background-color: #e9eaee;
+  border: none;
+}
+.tech-page{
+  margin: -25px auto;
+  background-color: #03061a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hr-position{
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  align-items: center;
+}
