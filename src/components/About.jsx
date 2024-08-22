@@ -54,7 +54,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="about-paragraph"
       >
-I'm a skilled software developer with a strong foundation in Python, JavaScript, C++, and expertise in frameworks like React, Node.js, and Django. With experience in TypeScript, HTML, CSS, Swift, and proficiency in object-oriented and functional programming paradigms, I create efficient, scalable, and user-friendly solutions. My toolset includes Git, GitHub, VSCode, and SQL/PostgreSQL, which I use to collaborate closely with clients, bringing ideas to life through innovative, real-world applications. Let's work together to turn your vision into reality!
+I'm a skilled software developer with a strong foundation in Python, JavaScript, C++, Swift, SQL and expertise in frameworks like React, Node.js, and Django. With experience in TypeScript, HTML, CSS, Swift, MongoDB, DynamoDB and proficiency in object-oriented and functional programming paradigms, I create efficient, scalable, and user-friendly solutions. My toolset includes Git, GitHub, VSCode, and SQL/PostgreSQL, which I use to collaborate closely with clients, bringing ideas to life through innovative, real-world applications. Let's work together to turn your vision into reality!
       </motion.p>
 
       <div className="services-container">
