@@ -41,7 +41,7 @@ const Navbar = () => {
       >
         <div className={styles.container}>
           <Link
-            to="/"
+            to="/profile"
             className={styles.logoLink}
             onClick={() => {
               setActive("");
