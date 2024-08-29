@@ -6,14 +6,13 @@
   .feedbacks-header {
     background-color: #03061a;
     border-radius: 16px;
-
-    padding: 40px; /* Adjust based on styles.padding */
+    padding: 40px; 
     min-height: 300px;
   }
   
   .section-subtext {
     font-size: 18px;
-    color: #a3a3a3; /* Equivalent to text-secondary */
+    color: #a3a3a3;
   }
   
   .section-headtext {
@@ -23,7 +22,7 @@
   }
   
   .feedback-cards {
-    margin-top: -80px; /* Adjust based on -mt-20 */
+    margin-top: -80px;
     padding-bottom: 56px;
     padding-left: 40px;
     padding-right: 40px;
