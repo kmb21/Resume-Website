@@ -62,12 +62,12 @@
   
   /* Navbar link items */
   .navLinkItem a {
-    text-decoration: none; /* Remove underline from navbar items */
+    text-decoration: none; /* Removes underline from navbar items */
     color: #718096; /* Set the color of the navbar items */
   }
   
   .navLinkItem a:hover {
-    color: white; /* Change color on hover */
+    color: white; /* Changes color on hover */
   }
   
   /* Active navbar link item */
