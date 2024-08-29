@@ -8,7 +8,7 @@ import { fadeIn } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div className="project-card" variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div className="project-card" variants={fadeIn("up", "spring", index * 0.5, 0.75)} onClick={() => window.open(source_code_link, "_blank")} whileHover={{ scale: 1.1, cursor: "pointer" }}>
       <Tilt
         className="tilt-container"
         options={{

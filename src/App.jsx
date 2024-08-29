@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import Profile from './components/Profile'; // Make sure to import the Profile component
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -21,8 +22,8 @@ const App = () => {
               <Feedbacks />
               <div className='relative z-0'>
                 <Contact />
-                <StarsCanvas />
               </div>
+              <Footer />
             </>
           } />
           {/* Define the profile route */}

@@ -47,10 +47,10 @@
     left: -1.5%; /* Align with the vertical line */
     transform: translateX(-50%);
     top: 20px;
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    border-radius: 50%;
+    width: 60px;
+    height: 65px;
+    /* background-color: #fff; */
+    /* border-radius: 100px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,10 +81,10 @@
     background-color: #03061a;
   }
   .company-logo {
-    width: 140%;
-    height: 100%;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
-    border-radius: 10%;
+    border-radius: 90px;
   }
   
   .experience-card {

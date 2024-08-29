@@ -10,6 +10,7 @@ import { EarthCanvas, StarsCanvas } from "./canvas";
 
 
 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -30,14 +31,15 @@ const Contact = () => {
     });
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        'service_zzr6kpq',
+        'template_agbn9zd',
         {
           from_name: form.name,
           to_name: "Maxwell Kumbong",
@@ -45,7 +47,7 @@ const Contact = () => {
           to_email: "maxwellkumbong@gmail.com",
           message: form.message,
         },
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        'E3QvI255fBmiB_3I9'
       )
       .then(
         () => {
@@ -79,7 +81,7 @@ const Contact = () => {
         className="contact-form-container"
       >
         <p className="section-subtext">Get in touch</p>
-        <h3 className="section-headtext">Contact.</h3>
+        <h3 className="section-headtext">Contact</h3>
 
         <form ref={formRef} onSubmit={handleSubmit} className="contact-form">
           <label className="form-label">

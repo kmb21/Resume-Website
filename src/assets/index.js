@@ -28,14 +28,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import duolingo from "./company/duolingo.jpeg";
-import swarthmore from "./company/swarthmore.jpg";
+import duolingo from "./company/duolingo.png";
+import swarthmore from "./company/swarthmore.png";
 import achaAnnex from "./company/achaAnnex.jpeg";
 import hermann from "./company/hermann.jpeg";
 
 import carrent from "./carrent.png";
+import cTour from "./cTour.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import railWay from "./railWay.png";
+import keyword from "./keyword.jpg";
+import remediation from "./remediation.png";
 
 export {
   logo,
@@ -48,6 +52,7 @@ export {
   close,
   cpp,
   css,
+  cTour,
   docker,
   figma,
   git,
@@ -73,4 +78,7 @@ export {
   swarthmore,
   achaAnnex,
   hermann,
+  railWay,
+  keyword,
+  remediation
 };

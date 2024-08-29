@@ -11,18 +11,9 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    remediation,
     python,
     cpp,
     swift,
@@ -30,6 +21,9 @@ import {
     achaAnnex,
     swarthmore,
     hermann,
+    cTour,
+    railWay,
+    keyword,
   } from "../assets";
   
   export const navLinks = [
@@ -61,7 +55,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mobile App Developer",
       icon: creator,
     },
   ];
@@ -99,21 +93,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -144,7 +127,7 @@ import {
         "Built and deployed an internal retrospective tool to enhance team feedback and post-sprint analysis",
         "Collaborated with cross-functional teams to deliver high-quality, scalable software solutions.",
         "Implemented responsive design practices and ensured cross-browser compatibility",
-        "Contributed to code reviews, providing and receiving constructive feedback to improve code quality.",
+        "Contributed to code reviews, improving code quality and improving project success rate by 10%.",
       ],
     },
     {
@@ -201,67 +184,76 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "C-Tour",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Mobile-based platform that allows users to explore college campuses either remotely or in person, offering virtual tours, photo sharing, and community engagement for current and prospective students, with plans to expand to application guidance and other tourist destinations.",
       tags: [
         {
-          name: "react",
+          name: "Swift",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cTour,
+      source_code_link: "https://github.com/kmb21/IOS-Projects/tree/main/C-TOUR",
     },
     {
-      name: "Job IT",
+      name: "Route Master",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A desktop-based interactive application that uses graph algorithms and a dynamic GUI to simulate and optimize railway and flight routes. Users can explore transport logistics, experiment with route planning, and manage network configurations. Initially focused on railways, extension will include flight path simulations with additional transport modes and real-time data integration.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Make file",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: railWay,
+      source_code_link: "https://github.com/kmb21/Railway-Rout-building-game",
     },
     {
-      name: "Trip Guide",
+      name: "Keyword Search Tool",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A sophisticated desktop application that utilizes advanced algorithms to provide precise search results, optimizing the retrieval process and vastly improving user experience. Ideal for educational settings, research, or any scenario requiring detailed text analysis, this project exemplifies a deep understanding of search engine technology and data structure optimization.",
       tags: [
         {
-          name: "nextjs",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Makefile",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: keyword,
+      source_code_link: "https://github.com/kmb21/Keyword-Search-Tool-Master",
+    },
+    {
+      name: "DocuPulse",
+      description:
+        "This robust document scraping script enhances accessible document remediation by automating data extraction from HTML documents, simplifying workflows, and ensuring high accuracy. Key features include a user-friendly interface, customizable scraping parameters, and scalable performance for both small and large-scale projects, making it ideal for a wide range of users and applications.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tex",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: remediation,
+      source_code_link: "https://github.com/kmb21/web-accessibility1",
     },
   ];
   
